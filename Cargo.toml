@@ -1,0 +1,17 @@
+[package]
+name = "shift_or_euc_c"
+description = "C API for shift_or_euc"
+version = "0.1.0" # Remember to keep html_root_url in lib.rs in sync!
+authors = ["Henri Sivonen <hsivonen@hsivonen.fi>"]
+edition = "2018"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+documentation = "https://docs.rs/shift_or_euc_c/"
+homepage = "https://docs.rs/shift_or_euc_c/"
+repository = "https://github.com/hsivonen/shift_or_euc_c"
+keywords = ["encoding", "web", "charset"]
+categories = ["text-processing", "encoding", "web-programming", "internationalization"]
+
+[dependencies]
+shift_or_euc = "0.1.0"
+encoding_rs = "0.8.17"
