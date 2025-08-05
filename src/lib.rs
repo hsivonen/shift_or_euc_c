@@ -7,7 +7,7 @@
 // option. This file may not be copied, modified, or distributed
 // except according to those terms.
 
-#![doc(html_root_url = "https://docs.rs/shift_or_euc_c/0.1.0")]
+#![doc(html_root_url = "https://docs.rs/shift_or_euc_c/1.0.0")]
 
 //! C API for [`shift_or_euc`](https://docs.rs/shift_or_euc/)
 //!
@@ -18,7 +18,7 @@
 //!
 //! # Licensing
 //!
-//! See the file named [COPYRIGHT](https://github.com/hsivonen/shift_or_euc/blob/master/COPYRIGHT).
+//! See the file named [COPYRIGHT](https://github.com/hsivonen/shift_or_euc_c/blob/master/COPYRIGHT).
 
 use encoding_rs::Encoding;
 use shift_or_euc::*;
